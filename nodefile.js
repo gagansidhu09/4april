@@ -1,10 +1,11 @@
-var user = {
-    first_name: "Gaganpreet",
-    last_name: "Sidhu",
-    age:4,/*from w w w. java 2 s.c om*/
-    website: "java2s.com"
-};
+for (i=1;i<11;i++)
+{
+    console.log(i);
+}
 
-for (key in user) {
-    console.log(key);
+var i=1;
+while(i<11)
+{
+    console.log(i);
+    i++;
 }
